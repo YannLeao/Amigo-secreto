@@ -1,12 +1,13 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #2C3E50; 
+    --color-secondary: #F1E6D7; 
+    --color-tertiary: #7F8C8D; 
+    --color-button: #E67E22; 
+    --color-button-hover: #D35400; 
+    --color-text: #2C3E50; 
+    --color-white: #FFFFFF; 
 }
+
 
 /* Estilos gerais */
 * {
@@ -55,14 +56,14 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: 'Press Start 2P', monospace;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: 'Press Start 2P', monospace;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -84,8 +85,16 @@ body {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
+    font-family: 'Press Start 2P', monospace;
     font-size: 16px;
+    color: var(--color-text);
 }
+
+.input-name::placeholder {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+}
+
 
 .button-container {
     width: 300px;
@@ -100,14 +109,14 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: 'Press Start 2P', monospace;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de botão */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Press Start 2P', monospace;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -129,7 +138,7 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: 'Press Start 2P', monospace;
     font-size: 18px;
     margin: 20px 0;
 }
