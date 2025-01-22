@@ -25,6 +25,10 @@ function adicionarAmigo() {
         return;
     }
 
+    if (!/^[A-Za-zÀ-ÿ\s]+$/.test(nome)) {
+        alert("O nome não pode possuir números ou caracteres especiais.")
+    }
+
     amigos.push(entrada.value);
     entrada.value = "";
     atualizarLista();
